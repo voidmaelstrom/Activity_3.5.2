@@ -28,10 +28,6 @@ body > div {
   list-style: none;
 }
 
-.navbar-nav {
-
-}
-
 #navbarlogo {
   display: inline-block;
   width: 140px;
@@ -42,12 +38,13 @@ body > div {
 
 .navbar-nav {
   position: relative;
+  justify-content: flex-end;
   padding-left: 0;
   list-style: none;
 }
 
 .navbar-nav > ul {
-  display: block;
+  display: inline-block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -70,13 +67,14 @@ body > div {
   margin-top: 30px;
 }
 
-.easysocial .easyblog .payplans {
+.easysocial .easyblog .payplans .komento .easydiscuss .easyarticles {
   font-family: 'Inter',Arial,sans-serif;
   font-weight: 800;
   font-style: normal;
-  color: #314273;
+  color: #304373;
   margin: 0 0 15px;
   line-height: 1.15;
+  text-decoration: none;
 }
 
 .easysocial {
@@ -91,8 +89,34 @@ body > div {
   background-color: rgb(240,239,255);
 }
 
+.komento {
+  background-color: #fff3f5;
+}
+
+.easydiscuss {
+  background-color: #e6ffea;
+}
+
+.easyarticles {
+  background-color: #eef9fd;
+}
+
+.btn-view-extensions {
+  padding-top: 20px;
+}
+
 #nav-site-collapse > a {
   color: white;
+}
+
+.h4 {
+  font-family: 'Inter',Arial,sans-serif;
+  font-size: large;
+  font-weight: 800;
+  font-style: normal;
+  color: #314273;
+  margin: 0 0 15px;
+  line-height: 1.15;
 }
 
 * {
